@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+    </style>
+    <title>Nonograma</title>
+  </head>
+  <body>
+    <div id="painel">
+      <h1 id="title">Nonograma</h1>
+      <div id="sub-painel">
+        <div id="color-palette">
+          <div id="colorTres" class="color"></div>
+          <div id="colorDois" class="color"></div>
+          <div id="colorQuatorze" class="color"></div>
+          <div id="colorTreze" class="color"></div>
+          <div id="colorUm" class="color selected"></div>
+          <div id="colorQuatro" class="color"></div>
+          <div id="colorSeis" class="color"></div>
+          <div id="colorCinco" class="color selected"></div>
+          <div id="colorSete" class="color"></div>
+          <div id="colorOito" class="color"></div>
+          <div id="colorDez" class="color"></div>
+          <div id="colorDoze" class="color"></div>
+          <div id="colorOnze" class="color"></div>
+          <div id="colorNove" class="color selected"></div>
+        </div>
+        <div id="inputBotoes">
+          <input type="number" min="1" id="board-size" class="roundBorda"> <button id="generate-board" class="roundBorda">Tamanho da grade</button>
+          <button id="bot" class="roundBorda">Desenhista</button> <button id="clear-board" class="roundBorda">Limpar</button>
+        </div>
+      </div>
+      <div id="pixel-board"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

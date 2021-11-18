@@ -1,0 +1,142 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #FFF3E4;
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  background-color: #483434;
+  width: 230px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  color: #FFF3E4;
+  margin-bottom: 20px;
+}
+
+#painel {
+  background-color: #EED6C4;
+  border-radius: 25px;
+  width: 1000px;
+  height: auto;
+  padding: 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+
+#sub-painel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#inputBotoes {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: auto;
+}
+
+.roundBorda {
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  background-color: #6B4F4F;
+  color: #FFF3E4;
+}
+
+#board-size {
+  width: 250px;
+  margin-left: 0px;
+}
+
+.color {
+  display: inline-block;
+  border: black solid 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#color-palette {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#colorUm {
+  background-color: #32647f;
+}
+
+#colorDois {
+  background-color: #1b3f55;
+}
+
+#colorTres {
+  background-color: #0e2533;
+}
+
+#colorQuatro {
+  background-color: #76ded3;
+}
+
+#colorCinco {
+  background-color: #024f2b;
+}
+
+#colorSeis {
+  background-color: #acfef2;
+}
+
+#colorSete {
+  background-color: #007737;
+}
+
+#colorOito {
+  background-color: #009746;
+}
+
+#colorNove {
+  background-color: #fefc85;
+}
+
+#colorDez {
+  background-color: #21ae62;
+}
+
+#colorOnze {
+  background-color: #feed00;
+}
+
+#colorDoze {
+  background-color: #d1c50f;
+}
+
+#colorTreze {
+  background-color: #1e4f9e;
+}
+
+#colorQuatorze {
+  background-color: #174485;
+}
+
+#pixel-board {
+  display: block;
+  width: 210px;
+  height: 210px;
+  line-height: 0px;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+}
